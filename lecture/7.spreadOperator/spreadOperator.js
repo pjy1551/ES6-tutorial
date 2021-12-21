@@ -23,30 +23,30 @@ console.log(obj2)
 
 
 
-// function numbers(...arg){
-//     console.log(arg)
-// }
-// numbers(1,2,3,4,5)  // 1,2,3,4,5  -> 배열 타입 입니다.
+function numbers(...arg){
+    console.log(arg)
+}
+numbers(1,2,3,4,5)  // 1,2,3,4,5  -> 배열 타입 입니다.
 
-// let number = [1, 2, 3, 4, 5]
-// let [one, two, ...nums] = number
+let number = [1, 2, 3, 4, 5]
+let [one, two, ...nums] = number
 
-// console.log(one) // 1
-// console.log(two) // 2
-// console.log(nums) // [3, 4, 5]
-
-
-
-// let obj1 = { string: 'bar', int: 42 }
-// let obj2 = { ...obj1 }
-// console.log(obj1, obj2)  
+console.log(one) // 1
+console.log(two) // 2
+console.log(nums) // [3, 4, 5]
 
 
-// let arr = [1,2,3,4,5]
-// let arr2 = [...arr]
-// arr[0] = 100
-// console.log(arr)  // 100,2,3,4,5
-// console.log(arr2) // 1,2,3,4,5
+
+let obj1 = { string: 'bar', int: 42 }
+let obj2 = { ...obj1 }
+console.log(obj1, obj2)  
+
+
+let arr = [1,2,3,4,5]
+let arr2 = [...arr]
+arr[0] = 100
+console.log(arr)  // 100,2,3,4,5
+console.log(arr2) // 1,2,3,4,5
 
 
 
